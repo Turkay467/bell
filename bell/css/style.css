@@ -1,0 +1,354 @@
+#new{
+    background-size:cover;
+    background-position: 50% 50%;
+    background-position: center;
+    height: 432px;
+    position: relative;
+}
+
+#new::before{
+background: rgba(0, 0, 0, 0.4);
+content: "";
+height: 100%;
+position: absolute;
+width: 100%;
+top:0;
+left:0;
+}
+#jumbo{
+    background-color: transparent;
+background-image:none;
+text-align:center;
+color:white;
+}
+#jumbo a{
+    border-radius: 27%;
+    padding: 11px 27px;
+
+}
+.img{
+    text-align: center;
+    margin-top: 43px;
+}
+/* header */
+#nav-header{
+    background-color:transparent;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    background-color:#199eb8;
+    
+}
+#nav-header li a{
+    color:white;
+}
+.bel{
+    padding:0 15px;
+}
+#icon i{
+    color:white;
+    font-size: 19px;
+
+}
+/* sup section */
+#suppa{
+    background-color:white;
+    color:black;
+}
+.circle p{
+    word-spacing: 2px;
+    letter-spacing: 0.6px;
+    line-height: 21px;
+    margin-bottom: 88px;
+}
+.circle h1{
+    padding: 41px;
+}
+.circ {
+    border:5px solid #199eb8;
+    border-radius: 47%;
+    padding: 35px 0;
+    margin-right: 100px;
+    position:relative;
+    width: 140px;
+}
+.circ p{
+    width: 11px;
+    margin: 0;
+    display: inline-block;
+    margin-right: 54px;
+    color:grey;
+   
+}
+.circ span {
+    position: absolute;
+    top: -21px;
+    left: 85px;
+    border: 2px solid #e04f00;
+    border-radius: 46%;
+    color: white;
+    background-color: #e04f00;
+    width: 57px;
+    height: 48px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 12px;
+}
+/* theme section */
+#theme{
+    background-image: url("../img/parallax-bg.jpg");
+    margin-top:60px;
+    margin-bottom:70px;
+}
+.welcome{
+    text-align: center;
+    color: white;
+    margin-top: 89px;
+    margin-bottom: 35px;
+}
+.welcome p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.phone{
+    width: 790px;
+    height: 294px;
+}
+.phone img{
+    width: 100%;
+    height: 100%;
+    margin-left: 140px;
+}
+ /* feature section  */
+ .features h1{
+     text-align:center;
+     color:#199eb8;
+     margin-bottom: 33px;
+ }
+ #custom{
+     border:none;
+     box-shadow:none;
+     border-color:transparent;
+     background-image:none;
+     text-align: center;
+ }
+ #custom i{
+     border:1px solid #199eb8;
+     width: 65px;
+     border-radius: 50%;
+     height: 60px;
+     text-align: center;
+     color: white;
+     background-color:#199eb8 ;
+     padding-top: 18px;
+     font-size: 21px;
+ }
+ #custom h3{
+     color:#199eb8;
+ }
+ #custom p{
+     color:grey;
+ }
+ /* section call */
+ #call{
+    background-color: #199eb8;
+    color:white;
+    margin-bottom:60px;
+ }
+ #call button{
+    padding: 13px 35px;
+    border-radius: 50px;
+    float: right;
+    background-color: #199eb8;
+    color: white;
+    border:3px solid white;;
+ }
+ #call button:hover{
+     background-color:white;
+     color:#199eb8;
+ }
+ .action p{
+    width: 789px;
+    font-size: 16px;
+ }
+ /* portfolio section */
+ .port{
+     text-align:center;
+ }
+ .port h1{
+     color:#199eb8;
+     margin-bottom: 22px;   
+ }
+ .port p{
+     color:grey;
+     font-size: 17px;
+     margin-bottom: 45px;
+ }
+  /* new row */
+
+ #anime{
+     border:none;
+     box-shadow:none;
+     margin-right: 0;
+     width: 295px;
+     position: relative;
+     margin-bottom:0;
+
+ }
+ .desc{
+     color:white;
+     background-color: black;
+     text-align: center;
+     width: 295px;
+     height:125px;
+     opacity:0;
+     position: absolute;
+     top: 5px;
+ }
+ /* niye umumi dive (.ani) hover olur */
+ .ani:hover .desc{
+    opacity:0.8;
+}
+#portfolio{
+    margin-bottom:60px;
+}
+/* team section */
+#team h1{
+    color:#199eb8;
+    text-align:center;
+    margin-bottom: 65px;
+}
+#serg{
+    border:none;
+    background-image:none;
+    background-color: transparent;
+    text-shadow: none;
+    box-shadow: none;
+}
+#team .caption{
+    text-align:center;
+}
+#team .caption p{
+    color:grey;
+}
+.connect{
+    background-color: black;
+    color:white;
+    text-align:center;
+    width: 254px;
+    height: 215px;
+}
+.connect ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-bottom: 45px;
+}
+.connect ul li{
+    display: inline;
+    padding: 4px 4px;
+    font-size: 17px;
+}
+.connect h2{
+    padding-top: 30px;
+}
+.connect li a{
+    color: white;
+}
+#serg img {
+    position: relative;
+}
+.connect{
+    position: absolute;
+    opacity:0;
+    top: 5px;
+}
+#serg:hover .connect{
+    opacity:0.7;
+}
+#serg:hover .caption{
+    background-color: #199eb8;
+    color:white;
+}
+#team{
+    margin-bottom:50px;
+}
+/* contact section */
+#contact h1{
+    color:#199eb8;
+    text-align:center;
+    margin-bottom:70px;
+    margin-top:60px;
+}
+#contact{
+background-color: #f7f7f7;
+padding-bottom:50px;
+}
+.info i{
+    font-size: 20px;
+    color: #199eb8;
+    margin-right: 20px;
+}
+.info p{
+    display:inline; 
+}
+.info{
+    text-align: right;
+    padding-right: 59px
+}
+.loca{
+    margin-right:5px;
+}
+.info ul{
+    list-style:none;
+}
+.info ul li{
+    margin-bottom: 23px;
+}
+.input input{
+    width: 396px;
+    margin-bottom: 16px;
+    padding: 7px;
+}
+#message{
+    width: 396px;
+    height:100px;
+}
+.input button{
+    background-color: #199eb8;
+    color: white;
+    padding: 10px 25px;
+    border:none;
+    display: block;
+    margin-top: 10px;
+    
+}
+/* footer */
+footer{
+    background-color: black;
+    color:white;
+}
+.temp span{
+color:#199eb8;
+}
+.temp .copy{
+    font-size: 20px;
+    color: grey;
+    margin-top: 26px;
+}
+.list ul{
+    list-style:none;
+    margin-top: 29px;
+}
+.list li a{
+    color:white;
+    text-decoration: none;
+}
+.list li{
+    display: inline;
+    padding: 5px 11px;
+    font-size: 17px;
+}
+.list li a:hover{
+    color:#199eb8;
+}

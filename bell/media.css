@@ -1,0 +1,68 @@
+@media only screen and (max-width:412px) {
+    .image {
+       display: none;
+    }
+    .left-side h3{
+        color: red;
+        font-size: 30px;
+    }
+   
+}
+
+@media screen and (max-width:412px) and (min-width: 375px) {
+    .caption h5 {
+        padding-left: 300px;
+    }
+}
+
+
+
+/* FOR INPUT WITHOUT BORDER */
+
+input{
+    border:none;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  label{
+    float:left;
+  }
+  hr{
+    width:200px;
+    text-align:left;
+    float:left;
+   margin-left:20px;
+   margin-top:10px;
+  }
+
+
+ /* bu nedir */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+/* col-m */
+
+  <div class="row">
+<div class="col-3 col-m-3">...</div>
+<div class="col-6 col-m-9">...</div>
+<div class="col-3 col-m-12">...</div>
+</div>
+
+
+
+
+/* orientation */
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}
